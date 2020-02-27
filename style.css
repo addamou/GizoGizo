@@ -13,6 +13,12 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 40px;
+    padding: 20px;
     border: solid black 9px;
+}
+.boite4{
+    padding: 15px;
+}
+.bouton{
+    margin-top: 80px !important;
 }
