@@ -22,3 +22,22 @@
 .bouton{
     margin-top: 80px !important;
 }
+.boite5{
+    padding: 55px!important;
+}
+.boite6{
+    margin-bottom: -14px !important;
+    padding: 10px;
+}
+.boite7{
+    padding: 15px;
+}
+.liens{
+    font-size: 11px !important;
+}
+.bouton2{
+    width: 100%  !important;
+    padding: 5px !important;
+    border-radius: 4px !important;
+    border: none !important;
+}

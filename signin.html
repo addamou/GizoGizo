@@ -22,7 +22,7 @@
                     <li><a href="index.html" class="purple-text darken-2">Home</a></li>
                     <li><a href="solution.html">Solutions</a></li>
                     <li><a href="signin.html">Sign up</a></li>
-                    <li><a href="#" class="btn purple darken-2">LOGIN</a></li>
+                    <li><button data-target="modale1" class="btn modal-trigger purple darken-2">LOGIN</button></li>
                     <li><a href="signin.html"><i class="fa fa-facebook-square small"></i></a></li>
                     <li><a href="signin.html"><i class="fa fa-twitter small"></i></a></li>
                     <li><a href="signin.html"><i class="fa fa-instagram small"></i></a></li>
@@ -34,7 +34,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="solution.html">Solutions</a></li>
             <li><a href="signin.html">Sign up</a></li>
-            <li><a href="#" class="btn purple darken-2">LOGIN</a></li>
+            <li><button data-target="modale1" class="btn modal-trigger purple darken-2">LOGIN</button></li>
             <li><a href="signin.html"><i class="fa fa-facebook-square small"></i></a></li>
             <li><a href="signin.html"><i class="fa fa-twitter small"></i></a></li>
             <li><a href="signin.html"><i class="fa fa-instagram small"></i></a></li>
@@ -42,39 +42,99 @@
         <!--le text en overlay-->
         <div class="container transparent center col s12 m12 l12 xl12 boite1">
             <p class="card-title white-text flow-text">Welcome To GizoGizo</p>
-            <h1 class="card-text white-text">Make Developers Happy</h1>
-            <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident recusandae nihil
-                eligendi assumenda.</p>
-            <a href="#" class="btn white purple-text darken-2 btn">LEARN MORE</a>
-            <a href="#" class="btn purple darken-2 white-text">SINGN UP</a>
+            <h1 class="card-text white-text">Create An Account</h1>
         </div>
-
     </header>
     <!--conteneur principal-->
+    <content>
+        <div class="container">
+            <div class="row">
+            <div class="col s12 m6 l6 xl6">
+                <div>
+                    <h5>Get a free account</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore labore blanditiis sunt itaque odit et corporis.</p>
+                </div>
+
+                <div>
+                    <h5>Download the free software</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore labore blanditiis sunt itaque odit et
+                        corporis.</p>
+                </div>
+
+                <div>
+                    <h5>push to the platform</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore labore blanditiis sunt itaque odit et
+                        corporis.</p>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl6">
+                <form action="" class="grey lighten-3 boite7">
+                    <h5 class="purple-text center">Sign up</h5>
+                    <div class="input-field">
+                        <input id="name_inline" type="text" class="validate">
+                        <label for="name_inline">Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="lastname_inline" type="text" class="validate">
+                        <label for="lastname_inline">Last Name</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">Email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="password_inline" type="password" class="validate">
+                        <label for="password_inline">Password</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input id="company_inline" type="text" class="validate">
+                        <label for="company_inline">Company</label>
+                    </div>
+
+                    <div class="input-field">
+                        <select>
+                            <option value="" disabled selected>Select Role</option>
+                            <option value="1">Professional Developer</option>
+                            <option value="2">Hobbyist</option>
+                            <option value="3">Student</option>
+                            <option value="3">Manager</option>
+                            <option value="3">Other</option>
+                        </select>
+                        <label>Role</label>
+                    </div>
+                 
+                        <button type="submit" class="card purple white-text bouton2">SIGN UP</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </content>
     <!--footer-->
     <footer class="page-footer deep-purple darken-2">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Location</h5>
-                    <p class="grey-text text-lighten-4">BiziBizi, INC</p>
-                    <p class="grey-text text-lighten-4">32 Rue Sadore, Niger</p>
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dignissimos ad earum minus quia quis neque omnis eius.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#apropos">About</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#testimonial">Testimonials</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#apropos">Solutions</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#testimonial">Sign up</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright deep-purple darken-4">
+        <div class="footer-copyright deep-purple darken-3">
             <div class="container">
-                © 2020 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                GizoGizo © 2020
+                <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
             </div>
         </div>
     </footer>
@@ -84,6 +144,14 @@
     <script>
         $(document).ready(function () {
             $('.sidenav').sidenav();
+        });
+        //form
+        $(document).ready(function () {
+            M.updateTextFields();
+        });
+        //selecteur
+        $(document).ready(function () {
+            $('select').formSelect();
         });
     </script>
 </body>
