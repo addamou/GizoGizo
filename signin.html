@@ -44,6 +44,34 @@
             <p class="card-title white-text flow-text">Welcome To GizoGizo</p>
             <h1 class="card-text white-text">Create An Account</h1>
         </div>
+        <!-- Modal Structure -->
+        <div id="modale1" class="modal">
+            <div class="modal-content">
+                <h4 class="purple-text">Account Login</h4>
+                <p>Login to access your account dashboard</p>
+                <!--formulaire-->
+        
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+        
+            </div>
+            <div class="modal-footer">
+                <a class="waves-effect waves-light btn grey">
+                    <i class="material-icons">sync</i>
+                    <span>RESET PASSWORD</span>
+                </a>
+                <a class="waves-effect waves-light btn purple darken-2">
+                    <i class="material-icons">lock</i>
+                    <span>LOGIN</span>
+                </a>
+            </div>
+        </div>
     </header>
     <!--conteneur principal-->
     <content>
@@ -153,6 +181,10 @@
         $(document).ready(function () {
             $('select').formSelect();
         });
+        //modale 1
+            $(document).ready(function () {
+                $('.modal').modal();
+            });
     </script>
 </body>
 
